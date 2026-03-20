@@ -116,7 +116,7 @@ export default function ProjectsPage() {
   return (
     <main className="min-h-screen bg-white py-16">
       <Header variant="light" />
-      <Container>
+      <Container className="max-w-full">
         <SectionTitle className="text-black">Projects</SectionTitle>
         <p className="mx-auto mt-4 max-w-3xl text-center text-black/70 text-base sm:text-lg leading-relaxed">
           Everything I've built — products, tools, and experiments. Selected projects include detailed case studies.
